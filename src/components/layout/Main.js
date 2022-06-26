@@ -8,7 +8,7 @@ function Main() {
 
     return <>
 
-        <Header></Header>
+        <Header/>
         <Routes>
             <Route></Route>
             <Route></Route>
