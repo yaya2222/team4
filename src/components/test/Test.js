@@ -1,7 +1,8 @@
+import Search from "../../common/Search"
 
 function Test(){
     return <>
-    
+    <Search/>
     </>
 }
 
