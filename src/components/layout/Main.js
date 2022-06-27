@@ -4,15 +4,15 @@ import Nav from "./Nav";
 import Popup from "./Popup";
 import { Outlet, Route, Routes } from "react-router-dom"
 import Context from "../../context";
-import Dashboard from "../../PAGES/Dashboard"
-import { SignUp, } from "../../PAGES/signup/index"
-import { } from "../../PAGES/admin"
-import { } from "../../PAGES/firstAssessement"
-import { } from "../../PAGES/freeStyle"
-import { } from "../../PAGES/levelExercise/index"
-import { } from "../../PAGES/setting"
-import { } from "../../PAGES/trainFocus"
-import { } from "../../PAGES/trainReading"
+import Dashboard from "../../pages-order/Dashboard"
+import { SignUp, } from "../../pages-order/signup/index"
+import { } from "../../pages-order/admin"
+import { } from "../../pages-order/firstAssessement"
+import { } from "../../pages-order/freeStyle"
+import { } from "../../pages-order/levelExercise/index"
+import { } from "../../pages-order/setting"
+import { } from "../../pages-order/trainFocus"
+import { } from "../../pages-order/trainReading"
 
 function Main() {
 
