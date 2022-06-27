@@ -1,8 +1,8 @@
-import Table from "../common/admin/Table"
+import Temp from "../../pages-order/signup/ForgotPassword"
 
 function Test(){
     return <>
-    <Table/>
+    <Temp/>
     </>
 }
 
