@@ -6,11 +6,11 @@ function Hamburger() {
     return <>
         <div className={styles.mainDiv}>
             <div className={styles.picHolder}>
-
                 <div className={styles.firstImg}></div>
                 <div className={styles.secendImg}></div>
             </div>
-            <AdminBtn />
+            <AdminBtn title={'Dashboard'}/>
+            <AdminBtn title={'Classrooms'}/>
         </div>
     </>
 }
