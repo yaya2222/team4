@@ -4,7 +4,15 @@ import Nav from "./Nav";
 import Popup from "./Popup";
 import { Outlet, Route, Routes } from "react-router-dom"
 import Context from "../../context";
-
+import Dashboard from "../../pages-order/Dashboard"
+import { SignUp, } from "../../pages-order/signup/index"
+import { } from "../../pages-order/admin"
+import { } from "../../pages-order/firstAssessement"
+import { } from "../../pages-order/freeStyle"
+import { } from "../../pages-order/levelExercise/index"
+import { } from "../../pages-order/setting"
+import { } from "../../pages-order/trainFocus"
+import { } from "../../pages-order/trainReading"
 
 function Main() {
 
@@ -21,10 +29,33 @@ function Main() {
 
                 {/* student */}
                 <Route path="/student" element={<><h1> protected - route - student  </h1><Outlet /></>}>
-                    <Route path="focus-train">
+                    <Route path="dashboard" element={<Dashboard />} />
+
+                    <Route path="train-focus">
                         <Route index element={<>focus-train</>} />
                         <Route path="exercise" element={<>exercise</>} />
                     </Route>
+
+                    <Route path="first-assessement">
+                        <Route index element={<>firstAssessementn</>} />
+                    </Route>
+
+                    <Route path="free-style">
+                        <Route index element={<>free style</>} />
+                    </Route>
+
+                    <Route path="level-exercise">
+                        <Route index element={<>levelEcecise</>} />
+                    </Route>
+
+                    <Route path="setting">
+                        <Route index element={<>setting</>} />
+                    </Route>
+
+                    <Route path="trainReading">
+                        <Route index element={<>trainReading</>} />
+                    </Route>
+
 
                 </Route>
 
