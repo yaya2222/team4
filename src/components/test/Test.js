@@ -1,8 +1,11 @@
+import Temp from "../common/index"
 
-function Test(){
+function Test() {
+
     return <>
-    
+    <Temp/>
     </>
+    
 }
 
 
