@@ -1,0 +1,13 @@
+.main{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.insideTimer{
+  display: flex;
+  flex-direction: column}
+
+  .styles.watch{
+    position: relative;
+  }
