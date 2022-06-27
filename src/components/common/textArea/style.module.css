@@ -6,6 +6,11 @@
     padding: 6px;
     max-width: 328px;
     z-index: 1;
+<<<<<<< HEAD
+=======
+    margin-top: 25px;
+
+>>>>>>> c560cedc08aa2041306550a4e0dc7a2967b38b94
     height: 80px;
 }
 
@@ -16,6 +21,11 @@
     left: 15px;
     background-color: white;
     font-size: 12px;
+<<<<<<< HEAD
+=======
+    text-transform: capitalize;
+
+>>>>>>> c560cedc08aa2041306550a4e0dc7a2967b38b94
 }
 
 .textAreaInput {
