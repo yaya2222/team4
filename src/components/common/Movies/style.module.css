@@ -44,3 +44,14 @@ cursor: pointer;
     bottom: 150px;
     left: 150px; 
 }
+
+.img{
+    position: absolute;
+    left: 300px;
+    top: 195px;
+    width: 76.97px;
+    height: 84.05px;
+    background-image: url("./Group.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
