@@ -1,5 +1,5 @@
 .Button{
-    width: 383px;
+    width: 330px;
     height: 48px;
     background-color: #F39C12;
     box-sizing: border-box;
@@ -11,6 +11,8 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
+    margin: auto;
+    margin-top: 15px ;
 }
 .text{
     font-family: 'Poppins';

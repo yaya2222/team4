@@ -7,7 +7,7 @@ function PassInput(props) { // ------------- yoda work -------------  eye functi
     return <div className={styles.passInput}>
         <label className={styles.labelStyle}>{props.description}</label>
         <input name={props.name} type={showPass ? 'text' : 'password'} className={styles.inputArea}  onChange={props.onChange} />
-        <button className={styles.passBtn} onClick={() => setShowPass(!showPass)}>{showPass ? <ImEye /> : <ImEyeBlocked />}</button>
+        <button className={styles.passBtn} onClick={(e) =>{e.preventDefault(); setShowPass(!showPass)}}>{showPass ? <ImEye /> : <ImEyeBlocked />}</button>
     </div>
 }
 
