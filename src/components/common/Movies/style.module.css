@@ -38,3 +38,9 @@ background: #F39C12;
 border: 2px solid #000000;
 cursor: pointer;
 }
+
+.button{
+    position: absolute;
+    bottom: 150px;
+    left: 150px; 
+}
