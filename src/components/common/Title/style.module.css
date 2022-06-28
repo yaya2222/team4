@@ -1,7 +1,7 @@
 .h1 {
   padding-left: 0%;
   text-align: center;
-  width: 383px;
+  width: 192px;
   height: 25px;
   font-family: "Poppins";
   font-style: normal;
@@ -16,7 +16,6 @@
   margin: auto;
   background-color: none;
   margin-top: 50px;
-  margin-bottom: 20px;
 }
 
 #h1 {
@@ -25,4 +24,24 @@
   size: 20px;
   line-height: 25px;
   text-align: center;
+}
+
+.h3 {
+  width: 158px;
+  height: 18px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #55575a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
