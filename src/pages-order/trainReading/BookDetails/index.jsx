@@ -1,11 +1,11 @@
 import styles from './style.module.css'
 
-// Creator : Team A - Shahar
-function Temp(){
+// Creator : Team 4 - all
+function BookDetails(){
     return <>
     
     </>
 }
 
 
-export default Temp
+export default BookDetails

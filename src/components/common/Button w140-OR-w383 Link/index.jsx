@@ -21,7 +21,7 @@ function Button_w140_w383_Link(props){
     :<button 
     className={`${styles.Button} ${props.white? styles.White:""} ${props.small? styles.small:""}`} 
     onClick={props.onClick}>
-        <span className={styles.text}>{props.text}gsdffgdf</span>
+        <span className={styles.text}>{props.text}</span>
         </button>}
     </>
 }
