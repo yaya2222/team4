@@ -1,4 +1,4 @@
-import SelectButton from '../../../components/common/admin/home button'
+import SelectButton from '../../../components/common/home button'
 import HadderDashbord from '../hadderdashbord'
 import styles from './stayle.module.css'
 

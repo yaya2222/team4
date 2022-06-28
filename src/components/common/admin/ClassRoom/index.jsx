@@ -1,8 +1,9 @@
 import styles from './style.module.css'
-import AdminTableRow from '../tableRow'
-import arr from '../adminTableMain/fakeData.json'
-import DivCompicated from '../../DivCompicated'
-// Creator : Team A - Shahar
+import AdminTableRow from './tableRow'
+import arr from './fakeData.json'
+import DivCompicated from '../../../components/common/DivCompicated'
+// Creator : Team 1 - Avi 
+ // yuda work
 
 function AdminTable(props) {
     let cnt = 0

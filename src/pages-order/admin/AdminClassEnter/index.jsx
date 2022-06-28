@@ -1,11 +1,12 @@
 import styles from './style.module.css'
-import Button_w140_w383_Link from '../../Button w140-OR-w383 Link'
-import Title from '../../Title/Title'
+import Button_w140_w383_Link from '../../../components/common/Button w140-OR-w383 Link'
+import Title from '../../../components/common/Title/Title'
 import { useState } from 'react'
-import DivCompicated from '../../DivCompicated'
-import SelectComponent from '../../SelectBar'
+import DivCompicated from '../../../components/common/DivCompicated'
+import SelectComponent from '../../../components/common/SelectBar'
 import { Link } from 'react-router-dom'
-
+// Creator : Team 1 - Avi 
+// avi work
 export default function AdminClassEnetr(){
     const [option, setOption] = useState()
     function selectOptionReq(e){
