@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import styles from './style.module.css'
+import { Link } from "react-router-dom";
+import styles from "./style.module.css";
 
 // Creator : Team 3 - Shlomi
 // button/Link, big/small, orange/white
@@ -30,5 +30,4 @@ function Button_w140_w383_Link(props) {
     </>
 }
 
-
-export default Button_w140_w383_Link
+export default Button_w140_w383_Link;
