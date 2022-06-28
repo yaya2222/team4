@@ -9,7 +9,7 @@ ChartJS.register(
   CategoryScale, LinearScale, PointElement
 )
 // Creator : Team 6 - Roi
-//data and label they are "props" of the details  
+//לייבל מתקבל מהאינדקס כדי לקבוע את תצורת הזמן 
 
 
 //
@@ -24,6 +24,10 @@ function DashbordChrt(props) {
       tension: 0.7,
     }]
   }
+  // state - data - משתנה בעת לחיצה כפתור
+  // useEffect - data - שמשפיעה על הגרף
+  // state - range  - משתנה בהתאם לזמן
+  // useEffect - state-range >> מפלטר את ה-data
   const [isClicked, setisClicked] = useState(0)
 
 
@@ -33,12 +37,13 @@ function DashbordChrt(props) {
         <DashboardButton isClicked={isClicked === 0} onClick={() => setisClicked(0)} num="80" type="WPM" data="Assasment" />
         <DashboardButton isClicked={isClicked === 1} onClick={() => setisClicked(1)} num="8" type="LPM" data="Reading" />
         <DashboardButton isClicked={isClicked === 2} onClick={() => setisClicked(2)} num="50" type="CM" data="Focus" />
-        <SelectButton onChange={props.onChange} />
+        <SelectButton />
         <div className={styles.chart}> <Line data={data}  ></Line></div>
       </div>
     </div>
   </>
 }
+
 
 
 export default DashbordChrt
