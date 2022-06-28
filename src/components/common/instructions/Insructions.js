@@ -19,7 +19,7 @@ export default function Instructions() {
       <div className={styles.text}>
         <Text Text=" The standard Lorem Ipsum passage, used since the 1500 Consectetur fames feugiat interdum morbi placerat in. Leo commodo maecenas donec cursus aenean scelerisque eu. Ridiculus amet habitant gravida lobortis suscipit enim, consectetur quisque. Mauris nisi volutpat amet et. Id pretium urna tempor, augue lectus sit faucibus. Consequat ultricies lectus et est, semper vitae, varius lobortis " />
       </div>
-      <Button_w140_w383_Link text="next" />
+      <Button_w140_w383_Link text="next" href="SetCameraFace" />
     </>
   );
 }
