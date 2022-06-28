@@ -17,7 +17,7 @@ function SelectButton(props) {
                 <div className={styles.main}>
                     <img src={props.icon ? iconStudent : iconclass} className={styles.icon} />
                     <div className={styles.title}>
-                        <h3 className={styles.h3}>{props.number}</h3>
+                        <h3 className={styles.h3}>1555{props.number}</h3>
                         <div className={styles.text}>{text}</div>
                     </div>
                 </div>
