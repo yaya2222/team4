@@ -1,4 +1,4 @@
-import Test from "../test/Test";
+
 import Content from "./Content";
 import Header from "./Header";
 import Nav from "./Nav";
