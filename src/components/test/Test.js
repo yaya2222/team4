@@ -1,9 +1,15 @@
-import Search from "../../common/Search"
+import ResultSummary from "../../pages-order/firstAssessement/ResultSummary"
 
-function Test(){
+
+function Test() {
+
     return <>
-    <Search/>
+
+<ResultSummary/>
+
+
     </>
+
 }
 
 
