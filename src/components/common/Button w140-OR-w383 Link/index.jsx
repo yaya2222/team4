@@ -15,7 +15,7 @@ function Button_w140_w383_Link(props) {
             <Link
                 to={`${props.href}`}>
                 <div className={`${styles.Button}  ${props.white ? styles.White : ""} ${props.small ? styles.small : ""}`}>
-                    <span className={styles.text}>{props.text}qwerer</span>
+                    <span className={styles.text}>{props.text}</span>
                 </div>
             </Link>
             : <button
