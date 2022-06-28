@@ -1,3 +1,12 @@
+.bodyDiv{
+margin-top: 50px;
+
+
+}
+.arrDiv{
+    width: 900px;
+    height: 60px;
+}
 .mainDiv {
     max-width: 1000px;
     height: 70px;
@@ -9,6 +18,7 @@
     transform: rotate(-0.55deg);
     border: 2px solid black;
     flex-grow: 1;
+    font-weight: 600;
 }
 
 .allFlexItem {
