@@ -1,9 +1,9 @@
 import styles from './style.module.css'
-import DivCompicated from '../DivCompicated'
-import InputTypes from '../inputTypes'
+import DivCompicated from '../../DivCompicated'
+import InputTypes from '../../inputTypes'
 import { Link } from 'react-router-dom'
-import Button_w140_w383_Link from '../Button w140-OR-w383 Link'
-import Title from '../Title/Title'
+import Button_w140_w383_Link from '../../Button w140-OR-w383 Link'
+import Title from '../../Title/Title'
 import { useState } from 'react'
 
 // Creator : Team 1 - Avi 

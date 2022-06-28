@@ -1,9 +1,9 @@
 import styles from './style.module.css'
-import Button_w140_w383_Link from '../../../Button w140-OR-w383 Link'
-import Title from '../../../Title/Title'
+import Button_w140_w383_Link from '../../Button w140-OR-w383 Link'
+import Title from '../../Title/Title'
 import { useState } from 'react'
-import DivCompicated from '../../../DivCompicated'
-import SelectComponent from '../../../selectBar'
+import DivCompicated from '../../DivCompicated'
+import SelectComponent from '../../SelectBar'
 import { Link } from 'react-router-dom'
 
 export default function AdminClassEnetr(){
@@ -21,7 +21,7 @@ return (
     </div>
     <DivCompicated isLeft={true} classInternal={styles.frontDiv}>
         <form onSubmit={(e)=>{e.preventDefault(); console.log(option)}}>
-<SelectComponent labelText='classroom id' firstInfo='Choose ClassRoom Id' onChange={selectOptionReq}/>
+<SelectComponent labelText='classroom id' firstInfo='Choose ClassRoom Id' onChange={selectOptionReq} optionArry={['#123456','#323456']}/>
 <div className={styles.buttonDiv}>
 <Button_w140_w383_Link text='Submit'/>
 </div>

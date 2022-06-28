@@ -1,14 +1,9 @@
-.frontDiv{
-    padding: 30px;
-    background-color: white;
-
-}
 .mainDiv{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
+    
 }
 .linkStyle{
     font-size: 14px;
@@ -22,4 +17,14 @@
 }
 .linkDiv{
     margin: 20px;
+}
+
+
+
+
+.frontDiv{
+    padding: 30px;
+    background-color: azure;
+    background-color: white;
+
 }
