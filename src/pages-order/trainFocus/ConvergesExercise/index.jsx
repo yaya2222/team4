@@ -3,7 +3,7 @@ import Button_w140_w383_Link from "../../../components/common/Button w140-OR-w38
 import StartFooter from "../../../components/common/StartFooter"
 import styles from './style.module.css'
 
-// Creator : Team 5 - Netanel Levi
+// Creator : Team 5 - Netanel Levi, Nti Tuka, Nati Shenker
 function ConvergesExercise() {
     const [status, setStatus] = useState(1)
     switch (status) {

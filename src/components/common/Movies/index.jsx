@@ -14,7 +14,6 @@ function Movies(props) {
     return <DivCompicated classAll={styles.all} classBack={styles.back} classInternal={styles.internal} isLeft={true}>
 
         <video onClick={() => { setIsPlayed(false); videoRef.current.pause() }} ref={videoRef} className={`${styles.video} ${styles.internal}`} />
-        {/* {!isPlayed ? <button onClick={() => { setIsPlayed(!isPlayed); videoRef.current.play() }} className={styles.play}>Play</button> : ""} */}
         {!isPlayed ? <StartButton classButton={styles.button} onclick={() => { setIsPlayed(!isPlayed); videoRef.current.play() }} /> : ""}
     </DivCompicated>
 

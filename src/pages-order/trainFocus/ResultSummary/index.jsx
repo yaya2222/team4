@@ -1,7 +1,7 @@
 import Button_w140_w383_Link from '../../../components/common/Button w140-OR-w383 Link'
 import DivCompicated from '../../../components/common/DivCompicated'
 import styles from './style.module.css'
-// Creator : Team 5 - netanel Levi
+// Creator : Team 5 -Netanel Levi, Nti Tuka, Nati Shenker
 function ResultSummary(props) {
     return <div className={styles.all}>
         <div className={styles.img}></div>
