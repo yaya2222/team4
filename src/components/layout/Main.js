@@ -18,7 +18,7 @@ function Main() {
 
     return <>
         <Context>
-            <Header />
+            {/* <Header /> */}
             <Routes>
 
                 {/* sign */}
