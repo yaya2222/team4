@@ -5,7 +5,7 @@ function Test(){
 
     
 return <>
-<Questions />
+{/* <T /> */}
 </>
 }
 
