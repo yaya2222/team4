@@ -12,24 +12,21 @@ import styles from './style.module.css'
 // for small: send small=true in props
 // to add className send class="class"
 
-
 function Button_w140_w383_Link(props) {
     return <>
 
-    {props.href?
-    <Link 
-    to={`${props.href}`}>
-    <div className={`${styles.Button}  ${props.white? styles.White:""} ${props.small? styles.small:""} ${props.class}`}>
-        <span className={styles.text}>{props.text}qwerer</span>
-        </div>
-        </Link>
-    :
-    <button
-    type={props.type?props.type:"button"}
-    className={`${styles.Button} ${props.white? styles.White:""} ${props.small? styles.small:""} ${props.class}`} 
-    onClick={props.onClick}>
-        <span className={styles.text}>{props.text}</span>
-        </button>}
+        {props.href ?
+            <Link
+                to={`${props.href}`}>
+                <div className={`${styles.Button}  ${props.white ? styles.White : ""} ${props.small ? styles.small : ""}`}>
+                    <span className={styles.text}>{props.text}</span>
+                </div>
+            </Link>
+            : <button
+                className={`${styles.Button} ${props.white ? styles.White : ""} ${props.small ? styles.small : ""}`}
+                onClick={props.onClick}>
+                <span className={styles.text}>{props.text}</span>
+            </button>}
     </>
 }
 
