@@ -1,10 +1,10 @@
-import SelectButton from "../common/admin/home button"
-import Temp from "../common/index"
-
+import StartFooter from "../common/StartFooter"
+import Rintgun from "../common/Simcha"
 function Test() {
 
     return <>
-    <SelectButton/>
+    <Rintgun/>
+    <StartFooter/>
     </>
     
 }
