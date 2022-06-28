@@ -1,8 +1,8 @@
-import Temp from "../../pages-order/signup/ForgotPassword"
+import ForgotPassword from "../../pages-order/signup/ForgotPassword"
 
 function Test(){
     return <>
-    <Temp/>
+<ForgotPassword/>
     </>
 }
 
