@@ -1,7 +1,8 @@
 
 import { Outlet, Route, Routes } from "react-router-dom"
-import Context from "../../context";
+// import Context from "../../context";
 import Dashboard from "../../pages-order/Dashboard"
+import Test from "../test/Test"
 import { SignUp, } from "../../pages-order/signup/index"
 import { } from "../../pages-order/admin"
 import { } from "../../pages-order/firstAssessement"
@@ -9,7 +10,8 @@ import { } from "../../pages-order/freeStyle"
 import { } from "../../pages-order/levelExercise/index"
 import { } from "../../pages-order/setting"
 import { } from "../../pages-order/trainFocus"
-import { } from "../../pages-order/trainReading"
+import { BookDetails } from "../../pages-order/trainReading"
+import Instructions from "../../pages-order/trainReading/Instructions"
 
 function Content() {
     return <>
@@ -47,7 +49,8 @@ function Content() {
                 </Route>
 
                 <Route path="trainReading">
-                    <Route index element={<>trainReading</>} />
+                    <Route index element={<BookDetails/>} />
+                    <Route path="Instructions" element={<Instructions/>}/>
                 </Route>
 
 

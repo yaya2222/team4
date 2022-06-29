@@ -7,7 +7,7 @@ function BookDetails(){
     return <>
     <InputTypes description="What Book are you going to read?" type="text"/>
     <InputTypes description="Genre?" type="text"/>
-    <div className={styles.button}><Button_w140_OR_w383_Link href="/instructions"/></div>
+    <div className={styles.button}><Button_w140_OR_w383_Link href="/student/trainReading/instructions" text="Next"/></div>
     </>
 }
 
