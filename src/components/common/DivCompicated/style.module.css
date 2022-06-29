@@ -1,13 +1,13 @@
-/* .all{
-    margin-left: 100px;
-    margin-bottom: 90px;
-} */
+.all{
+    width: 382px;
+    max-width: 100%;
+   min-height: 60px; 
+}
 
 .backDiv{
     box-sizing: border-box;
-   width: 382px;
     max-width: 100%;
-   min-height: 179px;   
+   min-height: 60px;   
     background: var(--secondary-color);
     border: 1.5px solid #252525;
     border-radius: 20px;
@@ -23,8 +23,8 @@
 
 .internalDiv{
     box-sizing: border-box;
-    width: 100%;
-    min-height: 179px;
+    max-width: 100%;
+    min-height: 60px;
    background: #FEEFEC;
     border: 1.5px solid #252525;
     border-radius: 20px;

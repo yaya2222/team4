@@ -6,8 +6,12 @@ function Test(){
 
     
 return <>
+<<<<<<< HEAD
 {/* <Questions /> */}
 <ReadingRate/>
+=======
+{/* <T /> */}
+>>>>>>> 4afb2307ad4231d93675c220ede10816055efaf2
 </>
 }
 

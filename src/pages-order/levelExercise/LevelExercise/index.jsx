@@ -1,11 +1,11 @@
-import styles from './style.module.css'
+// import styles from './style.module.css'
+// // import Timer from '../../../components/common/Timer'
+// // Creator : Team 4 - yaakov goldman
+// function TemLevelExercisep(){
+//     return <>
+//     {/* <Timer /> */}
+//     </>
+// }
 
-// Creator : Team A - Shahar
-function Temp(){
-    return <>
-    
-    </>
-}
 
-
-export default Temp
+// export default LevelExercise
